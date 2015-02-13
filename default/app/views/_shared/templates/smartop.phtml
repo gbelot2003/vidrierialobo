@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Vidriería Lobo - Especialistas en Vidrios, Hierro y Madera</title>
+
+    <!-- Bootstrap Core CSS -->
+	<?php Tag::css('bootstrap.min') ?>
+    
+
+    <!-- Custom CSS -->
+	<?php Tag::css('stylish-portfolio') ?>
+    
+	<!-- Custom Fonts -->
+	<?php Tag::css('font-awesome/css/font-awesome.min') ?>
+	<?php echo Html::includeCss() ?>
+	
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+<?php View::partial('smartop/navigation')?>
+
+    <!-- Header -->
+    <header id="top" class="header">
+<?php View::partial('smartop/header')?>
+    </header>
+
+    <!-- About -->
+<?php View::partial('smartop/about')?>
+
+    <!-- Services -->
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+<?php View::partial('smartop/services')?>
+
+    <!-- Callout -->
+<?php View::partial('smartop/callout')?>
+
+    <!-- Portfolio -->
+<?php View::partial('smartop/portfolio')?>
+
+    <!-- Call to Action -->
+<?php View::partial('smartop/ask')?>
+
+    <!-- Map -->
+<?php View::partial('smartop/map')?>
+    <!-- Footer -->
+<?php View::partial('smartop/footer')?>
+
+
+
+</body>
+
+</html>
